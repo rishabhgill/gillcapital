@@ -1,0 +1,84 @@
+/* Minimalistic & sophisticated styling */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+body {
+  background-color: #fff;
+  color: #333;
+  line-height: 1.6;
+}
+
+header,
+nav,
+footer {
+  width: 100%;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+nav a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: #000;
+}
+
+/* Container / layout */
+.container {
+  width: 90%;
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+/* Headings */
+h1, h2, h3 {
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+
+h2 {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+  margin-top: 1.5rem;
+}
+
+/* Buttons & CTAs */
+.btn {
+  display: inline-block;
+  background: #333;
+  color: #fff;
+  padding: 0.6rem 1.2rem;
+  margin: 1rem 0.5rem 0 0;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  background: #000;
+}
+
+/* Footer */
+footer {
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  color: #666;
+}
